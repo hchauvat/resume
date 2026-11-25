@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hubert Chauvat — CV</title>
+  <meta name="description"
+    content="Hubert Chauvat — Software & Web Engineer, frontend-focused, 12 years of experience including 7 in healthcare.">
+  <!-- Repère de fin A4 visible seulement en local (file://, localhost) -->
+  <script>if (!location.hostname || /^(localhost|127\.|\[::1\])/.test(location.hostname)) document.documentElement.classList.add('dev')</script>
+  <link rel="preload" href="fonts/IBMPlexSans-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/IBMPlexSans-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/IBMPlexSans-Medium.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/IBMPlexMono-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <a class="download" href="CV_Hubert-Chauvat.pdf" download>Download PDF</a>
+
+  <main class="page">
+
+    <aside class="side">
+      <div class="id">
+        <h1 class="name">Hubert<br>Chauvat</h1>
+        <div class="bar"></div>
+        <div class="role">Software & Web Engineer</div>
+      </div>
+
+      <div class="contact">
+        <!-- Téléphone et e-mail : injectés seulement à l'export PDF local (CV_PHONE / CV_EMAIL dans .env.local), jamais publiés. -->
+        <a id="phone" hidden></a>
+        <a id="email" hidden></a>
+        <a href="https://linkedin.com/in/hubertchauvat">linkedin.com/in/hubertchauvat</a>
+        <span>Nantes, France</span>
+      </div>
+
+      <section class="block skills">
+        <h2 class="label">Skills</h2>
+        <div class="item"><b>Languages</b><span>JavaScript, TypeScript, Python, Shell, SQL, HTML, S/CSS</span></div>
+        <div class="item"><b>Frameworks & libs</b><span>Vue, Quasar, React, NestJS, Node.js, Storybook, XState,
+            D3</span></div>
+        <div class="item"><b>Testing</b><span>Cypress, Playwright, Jest, Cucumber, Gherkin, TDD</span></div>
+        <div class="item"><b>DevOps & tooling</b><span>Git, GitHub, GitLab CI, Jenkins, SonarQube, Helm, K8s,
+            Docker, webpack, npm/yarn, Cursor, Claude</span></div>
+        <div class="item"><b>Design & prototyping</b><span>Figma, Adobe XD, Zeplin, Adobe Creative</span></div>
+        <div class="item"><b>Methodology</b><span>Agile, Scrum, SAFe, pair programming, code review, technical
+            architecture</span></div>
+        <div class="item"><b>Environments</b><span>Linux, Windows, macOS · Confluence, Notion, Office, GSuite</span>
+        </div>
+      </section>
+
+      <section class="block">
+        <h2 class="label">Education</h2>
+        <div class="item"><b>Master’s degree — Health & Tech</b><span>ECE Paris, Engineering School (2014)</span>
+        </div>
+      </section>
+
+      <section class="block">
+        <h2 class="label">Spoken languages</h2>
+        <div class="item"><span>French — native</span><span>English — fluent (IELTS 7/9, TOEIC
+            895/990)</span><span>Spanish — basic</span></div>
+      </section>
+
+      <section class="block">
+        <h2 class="label">Interests</h2>
+        <div class="item"><b>Sports</b><span>Sailing, ice hockey, ski</span></div>
+        <div class="item"><b>Sciences</b><span>Surgical robotics, medical imaging, AI for healthcare</span></div>
+      </section>
+    </aside>
+
+    <div class="main">
+      <p class="summary">Frontend-focused engineer with <strong>12 years</strong> of experience, <strong>7 in
+          healthcare</strong>. Recently took on Scrum Master responsibilities and enjoy the team facilitation and
+        delivery ownership they bring. From early customer discussions to launch and ongoing feature work, comfortable
+        guiding products through every stage. Looking to grow as a senior technical contributor with more team
+        leadership scope, ideally in healthtech or medical products.</p>
+
+      <section class="jobs">
+        <h2 class="section-head"><span class="label">Work experience</span></h2>
+
+        <article class="job">
+          <h3>Frontend Developer & Scrum Master</h3>
+          <div class="meta">Owkin → WAIV (carve-out) · Paris, remote · May 2024 — now</div>
+          <ul>
+            <li>Feature development and app maintenance in a 4-person squad, 2 frontend / 2 backend (React, TS, Figma,
+              Cursor/Claude)</li>
+            <li><strong>600+ commits</strong> shipped; test coverage raised from <strong>0% to 80%</strong> across owned
+              projects</li>
+            <li>Two new apps developed end-to-end: anatomopathology viewer, and report engine (React, TS, NestJS, Helm,
+              K8s, Cursor/Claude)</li>
+            <li>Regularly drive frontend architecture decisions and lead code reviews across the squad</li>
+            <li>Scrum Master since Mar. 2026 — facilitate Agile ceremonies, manage the backlog against product
+              priorities, remove impediments; consistent bi-weekly sprint cadence</li>
+          </ul>
+        </article>
+
+        <article class="job">
+          <h3>Frontend Developer</h3>
+          <div class="meta">Luko · Paris · May 2021 — Apr. 2024 (3 years)</div>
+          <ul>
+            <li>Led the migration from Vue&nbsp;2 to Quasar (Vue&nbsp;3): <strong>100% of the codebase</strong>, bugs
+              and legacy code down <strong>70%</strong>, markedly better developer experience</li>
+            <li>Feature development (Quasar, TS, XState, Orval) and ongoing app maintenance</li>
+            <li>Built and maintained company-wide design system components with 4 contributors (Vue&nbsp;3, TS,
+              Storybook)</li>
+          </ul>
+        </article>
+
+        <article class="job">
+          <h3>Fullstack Developer</h3>
+          <div class="meta">Case Law Analytics · Nantes · Jan. 2020 — Apr. 2021 (15 months)</div>
+          <ul>
+            <li>Shipped <strong>3 products end-to-end</strong> in a 2-person team alongside the CTO</li>
+            <li>Mockup concept and design for new features and products (Adobe XD, Zeplin)</li>
+            <li>Fullstack development (NestJS, REST API, Vue, TS, SCSS, Bulma, webpack)</li>
+            <li>Maintenance and frontend updates of existing products (JS, SCSS, D3, Foundation)</li>
+          </ul>
+        </article>
+
+        <article class="job">
+          <h3>Software Quality Engineer → Frontend Developer & acting Scrum Master</h3>
+          <div class="meta">GE Healthcare · Buc, France · Sept. 2014 — Dec. 2019 (5 years)</div>
+          <div class="sub">Advantage Workstation team — QA focal point on several medical applications</div>
+          <ul>
+            <li>Design and development of tooling (Shell, CSH, Git) and automated tests (Python)</li>
+            <li>Verification and Validation procedure design</li>
+            <li>Testing strategy built from scratch for New Product Introduction</li>
+          </ul>
+          <div class="sub">From Aug. 2017 — transitioned into frontend development</div>
+          <ul>
+            <li>Frontend development of new medical imaging web apps (JS, TS, HTML, CSS)</li>
+            <li>Sole frontend specialist within a 15-person backend team (C++/Java) — introduced and drove modern
+              frontend practices across all UI/UX initiatives</li>
+          </ul>
+          <div class="sub">‘Installed Base’ focal point across both periods</div>
+          <ul>
+            <li>On-site customer training in France and Europe, customer feedback and backlog management</li>
+            <li>System-wide bug detection and regression testing</li>
+          </ul>
+        </article>
+      </section>
+    </div>
+
+  </main>
+</body>
+
+</html>
